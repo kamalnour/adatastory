@@ -38,14 +38,16 @@ Online searches mirrored this trend, with keystrokes lighting up the internet in
 ![DID_Physiological](assets/img/DID_Phys3.png)
 The bar chart indicates that based on Google Trends data, there was generally a smaller reduction—or in some cases, an increase—in the public's interest in grocery stores and pharmacies compared to shopping malls during the pandemic. This suggests that essential needs, such as those for food and healthcare, maintained a consistent level of importance as reflected by online search behaviors.
 
-Averaging all the coefficients together, we can determine how much more dominant physiological needs were during the pandemic.The bar plot below displays the overall fluctuation in grocery shopping, pharmacy and overall physiological needs.
+Averaging all the coefficients together, we can determine how much more dominant physiological needs were during the pandemic.The bar plot below displays the overall fluctuation in grocery shopping, pharmacy, and overall physiological needs.
 
 <iframe src="assets/physio_did.html" width="100%" height="400" scrolling="yes" frameborder="0"></iframe>
 
 
 ## Job Security in Crisis: The Pandemic's Impact on Maslow's Safety Layer
-EU Unemployment Data revealed a few things about how financial safety's place evolved during the pandemic. Preliminary studies on the overall number of inactive people show how the inactive European population was distributed amongst different groups: the number of inactive men  grew after the lockdown with respect to women, as did the number of unemployed 'young' people (under 25) with respect to 'older ' people (between the ages of 25 and 74). The pie charts help us visualize the results: labels Y_LT25 and Y25-74 respectively represent the younger and older population, as for the M and F labels, they represent male and female individuals. 
- 
+The data on unemployment in the European Union has provided valuable insights into how financial stability shifted during the pandemic. In our initial findings, we observed changes in the distribution of inactive individuals across various groups. Following the lockdown, there was an increase in the number of inactive men compared to women. Similarly, unemployment rates rose more significantly among the younger population (those under 25) in comparison to their older counterparts (between the ages of 25 and 74).
+
+To help us visualize these trends, we turned to pie charts. The labels Y_LT25 and Y25-74 represent the younger and older age groups, while M and F signify male and female individuals. These charts serve as a visual aid, allowing us to better understand how the pandemic impacted different demographic groups within the European
+
 #### Distribution of Unemployed Individuals per Group
 ![Unemployment_age](assets/img/un_age.png)
 ![Unemployment_sex](assets/img/un_sex.png)
@@ -60,6 +62,7 @@ Given these results, the next natural step is to generalize to an EU-wide scale,
 ![C_5](assets/img/c5.png)
 
 Regressing over the results screams uncertainty over the unemployment tendencies of the EU: some countries, like Iceland, had a thriving employment situation during the lockdown whilst other countries, such as Spain, were struggling with employment levels.
+
 ![LS](assets/img/ls_t.png)
 
 
