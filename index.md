@@ -119,7 +119,7 @@ In conclusion, the upper levels of Maslow's pyramid remained robust throughout t
 
 ## Test Plots using plotly & Progress bars
 
-<iframe src="countries.html" width="100%" height="1000"></iframe>>
+<iframe src="countries.html" width="100%" height="750"></iframe>>
 
 # Revealed
 Summin the different Differences in Differences coefficients and sorting them in ascending order yields the following barplot. These coefficients are comparable for the following reasons:
