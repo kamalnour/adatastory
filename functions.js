@@ -1,37 +1,32 @@
     // EU member countries' ISO Alpha-3 codes
     var euCountries = ['ITA', 'SRB', 'ROU', 'SVN', 'FIN', 'DNK'];
 
-    // Create a Choropleth map
-    var data = [{
-        type: 'choropleth',
-        locations: euCountries,
-        showscale: false,
-        z: Array(euCountries.length).fill(1),  // Creating an array with the same length as euCountries
-        text: euCountries,
-        colorscale: 'Blues',
-        colorbar: {
-            title: 'EU Countries'
-        },
-        marker: {
-            line: {
-                color: 'white'
+// Assuming you have your geoJSON data and other plotly configuration in 'data' variable
+        var data = [
+        {
+            type: 'choropleth',
+            geojson: yourGeoJSONData, // Replace with your geoJSON data
+            locations: euCountries,  // Pass the list of EU countries as locations
+            z: [1, 1, 1, 1, 1, 1],   // Assign a value (e.g., 1) to each country
+            colorscale: 'Viridis',  // Choose a colorscale
+            showscale: false,       // Hide the color scale if needed
+            colorbar: {            // Optional: Customize the color bar
+            title: 'Highlight',
+            titleside: 'top',
+            tickvals: [1],
+            ticktext: ['EU Countries']
             }
         }
-    }];
+        ];
 
-    // Layout configuration
-    var layout = {
-        title: 'Map of European Union Member Countries',
+        // Configure the layout, e.g., map projection and other settings
+        var layout = {
         geo: {
-            showframe: false,
-            center: {lat: 50, lon: 1000},
-            showcoastlines: false,
             projection: {
-                type: 'equirectangular'
-            },
-            scope: 'europe',
-            center: { lat: 50, lon: 15 },
+            type: 'mercator'  // Adjust as needed
+            }
         },
+        
         margin: {
             l: 0, // Set the left margin to 0
             r: 0, // Set the right margin to 0
