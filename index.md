@@ -40,7 +40,7 @@ The bar chart indicates that based on Google Trends data, there was generally a 
 
 Averaging all the coefficients together, we can determine how much more dominant physiological needs were during the pandemic.The bar plot below displays the overall fluctuation in grocery shopping, pharmacy, and overall physiological needs.
 
-<iframe src="assets/physio_did.html" width="100%" height="400" scrolling="yes" frameborder="0"></iframe>
+<iframe src="assets/physio_did.html" width="100%" height="500" scrolling="no" frameborder="0"></iframe>
 
 
 ## Job Security in Crisis: The Pandemic's Impact on Maslow's Safety Layer
