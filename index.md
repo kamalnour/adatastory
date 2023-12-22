@@ -74,15 +74,16 @@ However, one main problem arises: naive analysis does not consider seasonality. 
 
 Now picture this : you're back in March 2020. The first ever lockdown measures have been implemented. Your day-to-day routine has been completely thrown out the window as you and your peers are forced to self-isolate at home. As time goes on, you start to realize that maybe certain things matter more than others... Our objective now is too see if certain "personal" aspects of Maslow's pyramid (specifically : Love & Belonging, Esteem and Self-Actualization) have gained more importance during lockdown. We will look at how the interest in internet-topics related to these Maslow levels has evolved for different countries in Europe, by examining wikipedia pageviews!
 
+
+Let's explore our analysis with the countries featured below :
+
+<iframe src="eu_map.html" width="100%" height="550" scrolling="no" frameborder="0"></iframe>
+
 ### The Pulse of Connection: Tracking Love and Belonging in a Pandemic World
 
 <iframe src="assets/love_px_2.html" width="130%" height="450" scrolling="yes" frameborder="0"></iframe>
 
 Throughout the year, the interest in "Love & Belonging" fluctuates, but then... BOOM! We have our first Covid-19 death as well as our first lockdown measure. And with them, a general trend upwards for all countries appears. It would seem that love has become much more prevalent during this period! Now let's move onto our next level.
-
-## Navigating Through Esteem, Love, and Self-Actualization
-
-<iframe src="countries.html" width="100%" height="550" scrolling="no" frameborder="0"></iframe>
 
 ### Esteem in the Age of Isolation
 
