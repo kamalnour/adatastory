@@ -50,10 +50,10 @@ To help us visualize these trends, we turned to pie charts. The labels Y_LT25 an
 
 #### Distribution of Unemployed Individuals per Group
 
-<iframe src="assets/age_pie_0.html" width="100%" height="300" scrolling="no" frameborder="0"></iframe>
-<iframe src="assets/age_pie_1.html" width="100%" height="300" scrolling="no" frameborder="0"></iframe>
-<iframe src="assets/sex_pie_0.html" width="100%" height="300" scrolling="no" frameborder="0"></iframe>
-<iframe src="assets/sex_pie_1.html" width="100%" height="300" scrolling="no" frameborder="0"></iframe>
+<iframe src="assets/age_pie_0.html" width="200%" height="400" scrolling="no" frameborder="0"></iframe>
+<iframe src="assets/age_pie_1.html" width="200%" height="400" scrolling="no" frameborder="0"></iframe>
+<iframe src="assets/sex_pie_0.html" width="200%" height="400" scrolling="no" frameborder="0"></iframe>
+<iframe src="assets/sex_pie_1.html" width="200%" height="400" scrolling="no" frameborder="0"></iframe>
 
 Given these results, the next natural step is to generalize to an EU-wide scale, to understand how relevant safety needs related to employment were during covid times, and the answers lie in the time-series of unemployment rates across EU countries. A naive analysis should provide the key elements to infer the evolution of safety needs.  Considering march 2020  as the lockdown starting point let's dive head-first into the data.
 
