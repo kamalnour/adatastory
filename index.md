@@ -126,11 +126,12 @@ In conclusion, the upper levels of Maslow's pyramid remained robust throughout t
 <iframe src="countries.html" width="100%" height="750" scrolling="no" frameborder="0"></iframe>
 
 # Revealed
-Summin the different Differences in Differences coefficients and sorting them in ascending order yields the following barplot. These coefficients are comparable for the following reasons:
+Summing the different Differences in Differences coefficients and sorting them in ascending order yields the following barplot. These coefficients are comparable for the following reasons:
 - Same metric across all data (percentages)
 - Similar treatment, in this case lockdown
 - Same treatment and control testing periods
 
+This shows the drastic effect the pandemic had on our necessary needs: the pyramid is almost flipped over. Our most instinctive needs such as safety and physiology are replaced by more psychological, human-centric needs: love esteem and self-actualization.
   
 ![Final_plt](assets/img/result.png)
 
