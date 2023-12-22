@@ -69,6 +69,8 @@ However, it has one main fallacy: it does not consider seasonality. A fallacy th
 Using the aforementioned method, the following coefficients are obtained:
 ![DID_unemp](assets/img/did_unemployment.png)
 
+<iframe src="assets/unemployment_did.html" width="100%" height="750" scrolling="no" frameborder="0"></iframe>
+
 Contrary to the first, naive analysis, the DiD method proves that unemployment rates have skyrocketed during times of COVID, with a few exceptions. The E
 
 ## Ascending Maslow's Summit: A Deep Dive into the Upper Tiers During COVID-19
