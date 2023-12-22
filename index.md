@@ -68,7 +68,7 @@ Using least squares over this data to estimate the coefficients of unemployment 
 This analysis shows that some countries, like Iceland, had a thriving employment situation during lockdown whilst other countries, such as Spain, were struggling with employment levels.
 However, it has one main fallacy: it does not consider seasonality. A fallacy that **Difference in Differences** solves.
 Using the aforementioned method, the following coefficients are obtained:
-<iframe src="assets/unemployment_did.html" width="100%" height="750" scrolling="no" frameborder="0"></iframe>
+<iframe src="assets/unemployment_did.html" width="100%" height="750" scrolling="yes" frameborder="0"></iframe>
 
 Contrary to the first, naive analysis, the DiD method proves that unemployment rates have skyrocketed during times of COVID, with a few exceptions. The E
 
@@ -135,7 +135,7 @@ Summin the different Differences in Differences coefficients and sorting them in
 
   
 ![Final_plt](assets/img/result.png)
-<iframe src="assets/final_did.html" width="100%" height="100%" scrolling="no" frameborder="0"></iframe>
+<iframe src="assets/final_did.html" width="100%" height="400" scrolling="no" frameborder="0"></iframe>
 
 
 The following video illustrates the shift the pyramid levels endured during the pandemic:
