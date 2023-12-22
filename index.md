@@ -107,7 +107,7 @@ With DiD as our guide, we delved into the data. We wanted to grasp the extent of
 
 What we found was a story of change and adaptation. The pandemic shifted priorities, showing how people adjusted their aspirations in response to challenging times.
 
-![did_top3](assets/img/did_top3.png)
+<iframe src="assets/top3_did.html" width="100%" height="500" scrolling="no" frameborder="0"></iframe>
 
 
 Upon scrutinizing the data, a clear trend emerges. Surprisingly, despite the challenges posed by the pandemic, all three top categories of Maslow's pyramid experienced a surge in interest. Notably, the category of Self-Actualization saw the most significant increase.
