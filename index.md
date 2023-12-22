@@ -85,7 +85,7 @@ We can see that they're seems to be a shift upwards in the interest of these top
 
 In the graph above, this shift upwards is a lot more evident. In order to have a more conclusive analysis, we will be employing a differences in differences approach.
 
-## The Journey Toward Esteem, Love, and Self-Actualization
+## Navigating Through Esteem, Love, and Self-Actualization
 
 Let's explore our analysis with the countries featured below :
 
