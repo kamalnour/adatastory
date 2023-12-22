@@ -41,7 +41,7 @@ The bar chart indicates that based on Google Trends data, there was generally a 
 Averaging all the coefficients together, we can determine how much more dominant physiological needs were during the pandemic.The bar plot below displays the overall fluctuation in grocery shopping, pharmacy and overall physiological needs.
 
 ![DID_Physiological_fin](assets/img/physio_final.png)
-<iframe src="assets/physio_did.html" width="100%" height="400" scrolling="no" frameborder="0"></iframe>
+<iframe src="assets/physio_did.html" width="100%" height="400" scrolling="yes" frameborder="0"></iframe>
 
 
 ## Job Security in Crisis: The Pandemic's Impact on Maslow's Safety Layer
@@ -135,7 +135,7 @@ Summin the different Differences in Differences coefficients and sorting them in
 
   
 ![Final_plt](assets/img/result.png)
-<iframe src="assets/final_did.html" width="100%" height="400" scrolling="no" frameborder="0"></iframe>
+<iframe src="assets/final_did.html" width="100%" height="400" scrolling="yes" frameborder="0"></iframe>
 
 
 The following video illustrates the shift the pyramid levels endured during the pandemic:
