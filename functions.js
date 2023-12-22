@@ -34,7 +34,7 @@
             scope: 'europe',
             center: { lat: 50, lon: 15 },
         },
-        width: 600,
+        width: 900,
         height: 600,
         zoom: 5,
     };
