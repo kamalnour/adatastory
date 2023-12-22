@@ -20,7 +20,9 @@ This behavioral study bases itself on web-browsing data such as Wikipedia page v
 While Mobility and Unemployment Data directly point us to the lower-two levels of the pyramid, Physiological Needs and Safety, exctracting data for the upper three levels is a bit more intricate: Wikipedia pages and topics are not intuitively classified into Esteem, Love and Affection and Self-Actualization, this needed to be done in order to complete the study.
 
 ## Difference in Differences
-Differences in Differences or DiD analysis is used to underline the effect of a certain treatment affecting a group (or population). In our study, the treatment is the Covid-19 virus that hit the world in the early part of the 2020 year. A DiD analysis is relevant to us as it can explain the effect of Covid-19 on different types of data whilst removing the influence of other underlying factors that are unexplained in our data sets such as seasonal fluctuations or normal growth in data numbers, using what is called a control group. In an ideal case DiD is performed using two groups, one of which receives a treatment and the other doesn't, obviously this is not possible in our case as the pandemic hit the globe at roughly the same time period without exempting a group of people. Since this is an observational analysis, we found a way to compare two similar groups, using previous data over the same populations, ideally in the same period as covid in the beginning of 2019. The results of DiD is a coefficient (from regression) that gives us the effect the treatment (pandemic) had over our data, and therefore when looking at categories of Maslow's pyramid this can highlight which needs saw an increased interest compared to others, helping us redefine the pyramid.
+A world plunged into the unforeseen chaos of the COVID-19 pandemic in early 2020. No corner untouched, no exception granted. Now, in our quest to unravel the pandemic's impact, we find ourselves navigating a unique methodology—the difference in differences (or DiD).
+
+DiD analysis is used to underline the effect of a certain treatment affecting a group (or population). In our study, the treatment is the Covid-19 virus. A DiD analysis is relevant to us as it can explain the effect of Covid-19 on different types of data whilst removing the influence of other underlying factors that are unexplained in our data sets such as seasonal fluctuations or normal growth in data numbers, using what is called a control group. In an ideal case DiD is performed using two groups, one of which receives a treatment and the other doesn't, obviously this is not possible in our case as the pandemic hit the globe at roughly the same time period without exempting a group of people. Since this is an observational analysis, we found a way to compare two similar groups, using previous data over the same populations, ideally in the same period as covid in the beginning of 2019. The results of DiD is a coefficient (from regression) that gives us the effect the treatment (pandemic) had over our data, and therefore when looking at categories of Maslow's pyramid this can highlight which needs saw an increased interest compared to others, helping us redefine the pyramid.
 
 # The secrets of the Pyramid
 ## Physiological Needs
@@ -101,15 +103,15 @@ Finally, we will look at the data representing Self-Actualization :
 
 We obtain the same general results : a general shift upwards after the first Covid death and the first lockdown. We will now move onto to DiD analysis in order to get more conclusive results.
 
-### DiD & Summary
+### Results
 
-In this section we will provide an analysis using the difference in differences method to quantify the changes due to the covid pandemic. Since we are not performing a controlled experiment we do not dispose of a control and treatment group as comparison directly, as the pandemic affected the whole world without exeption. We will therefore use previous temporal periods as a "control" or unaffected group. For the datasets gathered above, we dispose of dates from the start of the year 2019. This enables us to use the early 2019 period as control group, as it can remove year seasonality effect and be used to compare the early 2020 year where covid 19 pandemic hit.
+The global pandemic left its mark on Maslow's pyramid, particularly on its top three categories. To understand the extent of this impact, we turn to our reliable DiD tool for quantification. It enables us to understand exactly how strongly these categories were impacted, and which ones were most attractive for people.
 
 ![did_top3](assets/img/did_top3.png)
 
-We observe that the pandemic had a positive effect in terms of pageviews for all three top categories of Maslow's pyramid, with Self-Actualization seeing the highest uprise.
+Examining the data, a notable trend surfaces. Despite the challenges, the pandemic had a positive effect on pageviews in all three top categories of Maslow's pyramid. Notably, Self-Actualization experienced the most significant increase.
 
-We can conclude that the top of the pyramid, specifically for these three levels, has remained intact throughout Covid-19.
+In conclusion, the upper levels of Maslow's pyramid remained robust throughout the Covid-19 period, showing resilience in the face of adversity, or rather the void created by the pandemic led to people having a stronger interest in subjects of deeper meaning, like their personal growth, life goals and their value to others. 
 
 
 
