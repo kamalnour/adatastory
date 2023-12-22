@@ -85,6 +85,11 @@ We can see that they're seems to be a shift upwards in the interest of these top
 
 In the graph above, this shift upwards is a lot more evident. In order to have a more conclusive analysis, we will be employing a differences in differences approach.
 
+## The Journey Toward Esteem, Love, and Self-Actualization
+
+Let's explore our analysis with the countries featured below :
+
+<iframe src="countries.html" width="100%" height="550" scrolling="no" frameborder="0"></iframe>
 
 ### Esteem in the Age of Isolation
 
@@ -114,13 +119,6 @@ Examining the data, a notable trend surfaces. Despite the challenges, the pandem
 
 In conclusion, the upper levels of Maslow's pyramid remained robust throughout the Covid-19 period, showing resilience in the face of adversity, or rather the void created by the pandemic led to people having a stronger interest in subjects of deeper meaning, like their personal growth, life goals and their value to others. 
 
-
-
-
-
-## Test Plots using plotly & Progress bars
-
-<iframe src="countries.html" width="100%" height="750" scrolling="no" frameborder="0"></iframe>
 
 # Revealed
 Summin the different Differences in Differences coefficients and sorting them in ascending order yields the following barplot. These coefficients are comparable for the following reasons:

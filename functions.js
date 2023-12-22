@@ -1,7 +1,5 @@
     // EU member countries' ISO Alpha-3 codes
-    var euCountries = ['AUT', 'BEL', 'BGR', 'HRV', 'CYP', 'CZE', 'DNK', 'EST', 'FIN', 'FRA', 
-                       'DEU', 'GRC', 'HUN', 'IRL', 'ITA', 'LVA', 'LTU', 'LUX', 'MLT', 'NLD', 
-                       'POL', 'PRT', 'ROU', 'SVK', 'SVN', 'ESP', 'SWE'];
+    var euCountries = ['ITA', 'SRB', 'ROU', 'SVN', 'FIN', 'DNK'];
 
     // Create a Choropleth map
     var data = [{
