@@ -117,7 +117,7 @@ We can conclude that the top of the pyramid, specifically for these three levels
 
 ## Test Plots using plotly & Progress bars
 
-<iframe src="countries.html" class="responsive-iframe"></iframe>
+<iframe src="countries.html" width="100%" height="600"></iframe>></iframe>
 
 # Revealed
 Summin the different Differences in Differences coefficients and sorting them in ascending order yields the following barplot. These coefficients are comparable for the following reasons:
