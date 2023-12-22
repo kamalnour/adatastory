@@ -119,10 +119,8 @@ In summary, the upper levels of Maslow's pyramid remained resilient during the C
 
 
 # Revealed
-Summing the different Differences in Differences coefficients and sorting them in ascending order yields the following barplot. These coefficients are comparable for the following reasons:
-- Same metric across all data (percentages)
-- Similar treatment, in this case lockdown
-- Same treatment and control testing periods
+Comparing all our results we can see that Maslow was, like everyone else, taken by surprise by this virus. His precious pyramid was almost flipped! The more intuitive, primitive human needs  were overtaken by psychological, human interaction-based needs.
+This is quantitatively backed by the change coefficients for each of the 5 pyramid levels. Safety and Physiological needs were belittled by Love, Esteem and Self-Actualization, which took over us during times of covid.
 
   
 <iframe src="assets/final_did.html" width="100%" height="400" scrolling="yes" frameborder="0"></iframe>
