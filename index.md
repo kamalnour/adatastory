@@ -74,6 +74,9 @@ However, one main problem arises: naive analysis does not consider seasonality. 
 
 When it comes to the top three levels of Maslow's Hierarchy, the analysis will be based on wikipedia pageviews, collected on a monthly basis between 2019-01 and 2020-08 : a period that allows us to capture the impact of different Covid-19 measures, such as lockdowns. Once we are done with the introductory analysis for each level, we will go into a differences in differences analysis (DiD) to conclude and summarize our results for the top three levels.
 
+
+Let's explore our analysis with the countries featured below :
+
 <iframe src="eu_map.html" width="100%" height="550" scrolling="no" frameborder="0"></iframe>
 
 ### The Pulse of Connection: Tracking Love and Belonging in a Pandemic World
