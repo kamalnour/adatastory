@@ -38,21 +38,19 @@ Online searches mirrored this trend, with keystrokes lighting up the internet in
 ![DID_Physiological](assets/img/DID_Phys3.png)
 The bar chart indicates that based on Google Trends data, there was generally a smaller reduction—or in some cases, an increase—in the public's interest in grocery stores and pharmacies compared to shopping malls during the pandemic. This suggests that essential needs, such as those for food and healthcare, maintained a consistent level of importance as reflected by online search behaviors.
 
-Averaging all the coefficients together, we can determine how much more dominant physiological needs were during the pandemic.The bar plot below displays the overall fluctuation in grocery shopping, pharmacy, and overall physiological needs.
+Averaging all the coefficients together, we can determine how much more dominant physiological needs were during the pandemic.The bar plot below displays the overall fluctuation in grocery shopping, pharmacy and overall physiological needs.
 
-<iframe src="assets/physio_did.html" width="100%" height="auto" scrolling="no" frameborder="0"></iframe>
+![DID_Physiological_fin](assets/img/physio_final.png)
 
 
 ## Job Security in Crisis: The Pandemic's Impact on Maslow's Safety Layer
-The data on unemployment in the European Union has provided valuable insights into how financial stability shifted during the pandemic. In our initial findings, we observed changes in the distribution of inactive individuals across various groups. Following the lockdown, there was an increase in the number of inactive men compared to women. Similarly, unemployment rates rose more significantly among the younger population (those under 25) in comparison to their older counterparts (between the ages of 25 and 74).
-
-To help us visualize these trends, we turned to pie charts. The labels Y_LT25 and Y25-74 represent the younger and older age groups, while M and F signify male and female individuals. These charts serve as a visual aid, allowing us to better understand how the pandemic impacted different demographic groups within the European
-
+EU Unemployment Data revealed a few things about how financial safety's place evolved during the pandemic. Preliminary studies on the overall number of inactive people show how the inactive European population was distributed amongst different groups: the number of inactive men  grew after the lockdown with respect to women, as did the number of unemployed 'young' people (under 25) with respect to 'older ' people (between the ages of 25 and 74). The pie charts help us visualize the results: labels Y_LT25 and Y25-74 respectively represent the younger and older population, as for the M and F labels, they represent male and female individuals. 
+ 
 #### Distribution of Unemployed Individuals per Group
 ![Unemployment_age](assets/img/un_age.png)
 ![Unemployment_sex](assets/img/un_sex.png)
 
-Given these results, the next natural step is to generalize to an EU-wide scale, to understand how relevant safety needs related to employment were during covid times, and the answers lie in the time-series of unemployment rates across EU countries. A naive analysis should provide the key elements to infer the evolution of safety needs.  Considering march 2020  as the lockdown starting point let's dive head-first into the data.
+Given these results, the next natural step is to generalize to an EU-wide scale, to understand how relevant safety needs related to employment were during covid times, and the answers lie in the time-series of unemployment rates across EU countries. Naively, plotting, regressing over the data and extracting coefficients should provide the key elements to infer the evolution of safety needs.  For the remainder of this analysis, march 2020 is considered as the lockdown starting point. Identifying data as pre and post-lockdown allows us to conduct the study on unemployment data.
 
 #### Time-Series of Unemployment Rates per European Country
 ![C_1](assets/img/c1.png)
@@ -61,14 +59,17 @@ Given these results, the next natural step is to generalize to an EU-wide scale,
 ![C_4](assets/img/c4.png)
 ![C_5](assets/img/c5.png)
 
-Regressing over the results screams uncertainty over the unemployment tendencies of the EU: some countries, like Iceland, had a thriving employment situation during the lockdown whilst other countries, such as Spain, were struggling with employment levels.
+Using least squares over this data to estimate the coefficients of unemployment rate change that the lockdown-country interaction brings yields the following results:
 
 ![LS](assets/img/ls_t.png)
 
 
-However, one main problem arises: naive analysis does not consider seasonality. A fallacy that **Difference in Differences** solves, using it reveals a harsher reality: unemployment spread like a virus throughout Europe.
+This analysis shows that some countries, like Iceland, had a thriving employment situation during lockdown whilst other countries, such as Spain, were struggling with employment levels.
+However, it has one main fallacy: it does not consider seasonality. A fallacy that **Difference in Differences** solves.
+Using the aforementioned method, the following coefficients are obtained:
+![DID_unemp](assets/img/did_unemployment.png)
 
-<iframe src="assets/unemployment_did.html" width="100%" height="750" scrolling="yes" frameborder="0"></iframe>
+Contrary to the first, naive analysis, the DiD method proves that unemployment rates have skyrocketed during times of COVID, with a few exceptions. The E
 
 ## Ascending Maslow's Summit: A Deep Dive into the Upper Tiers During COVID-19
 
@@ -76,7 +77,7 @@ When it comes to the top three levels of Maslow's Hierarchy, the analysis will b
 
 ### The Pulse of Connection: Tracking Love and Belonging in a Pandemic World
 
-<iframe src="assets/final_did.html" width="100%" height="auto" scrolling="no" frameborder="0"></iframe>
+![Love1](assets/img/love_countries.png)
 
 In the plot above, we see the evolution, on average, of the relative percentage change from the baseline of multiple topics related to Love & Belonging, for six different countries within europe. This allows us to evaluate how the general interest in Love & Belonging topics has evolved during this period.
 
@@ -104,14 +105,13 @@ Finally, we will look at the data representing Self-Actualization :
 ![Self_C](assets/img/self_countries.png)
 ![Self_A](assets/img/self_avg.png)
 
-We obtain the same general results : a shift upwards after the first Covid death and the first lockdown. We will now move onto to DiD analysis in order to get more conclusive results.
+We obtain the same general results : a general shift upwards after the first Covid death and the first lockdown. We will now move onto to DiD analysis in order to get more conclusive results.
 
 ### Results
 
 The global pandemic left its mark on Maslow's pyramid, particularly on its top three categories. To understand the extent of this impact, we turn to our reliable DiD tool for quantification. It enables us to understand exactly how strongly these categories were impacted, and which ones were most attractive for people.
 
 ![did_top3](assets/img/did_top3.png)
-
 
 Examining the data, a notable trend surfaces. Despite the challenges, the pandemic had a positive effect on pageviews in all three top categories of Maslow's pyramid. Notably, Self-Actualization experienced the most significant increase.
 
@@ -132,7 +132,7 @@ Summin the different Differences in Differences coefficients and sorting them in
 - Same treatment and control testing periods
 
   
-<iframe src="assets/final_did.html" width="100%" height="400" scrolling="yes" frameborder="0"></iframe>
+![Final_plt](assets/img/result.png)
 
 
 The following video illustrates the shift the pyramid levels endured during the pandemic:
