@@ -40,7 +40,7 @@ The bar chart indicates that based on Google Trends data, there was generally a 
 
 Averaging all the coefficients together, we can determine how much more dominant physiological needs were during the pandemic.The bar plot below displays the overall fluctuation in grocery shopping, pharmacy, and overall physiological needs.
 
-<iframe src="assets/physio_did.html" width="100%" height="500" scrolling="no" frameborder="0"></iframe>
+<iframe src="assets/physio_did.html" width="100%" height="auto" scrolling="no" frameborder="0"></iframe>
 
 
 ## Job Security in Crisis: The Pandemic's Impact on Maslow's Safety Layer
@@ -76,7 +76,7 @@ When it comes to the top three levels of Maslow's Hierarchy, the analysis will b
 
 ### The Pulse of Connection: Tracking Love and Belonging in a Pandemic World
 
-<iframe src="assets/final_did.html" width="100%" height="400" scrolling="yes" frameborder="0"></iframe>
+<iframe src="assets/final_did.html" width="100%" height="auto" scrolling="no" frameborder="0"></iframe>
 
 In the plot above, we see the evolution, on average, of the relative percentage change from the baseline of multiple topics related to Love & Belonging, for six different countries within europe. This allows us to evaluate how the general interest in Love & Belonging topics has evolved during this period.
 
