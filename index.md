@@ -99,9 +99,11 @@ Again, looking at the above plots, we see that this trend upwards, straight afte
 
 Finally, we will look at the data representing Self-Actualization :
 
-<iframe src="assets/self_px.html" width="150%" height="550" scrolling="yes" frameborder="0"></iframe>
+<iframe src="assets/self_px.html" width="110%" height="550" scrolling="yes" frameborder="0"></iframe>
 
 We obtain the same general results : a general shift upwards after the first Covid death and the first lockdown. We will now move onto to DiD analysis in order to get more conclusive results.
+
+zebb
 
 ### Results
 
