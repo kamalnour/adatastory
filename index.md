@@ -81,7 +81,7 @@ Let's explore our analysis with the countries featured below :
 
 ### The Pulse of Connection: Tracking Love and Belonging in a Pandemic World
 
-<iframe src="assets/love_px_2.html" width="130%" height="450" scrolling="yes" frameborder="0"></iframe>
+<iframe src="assets/love_px_3.html" width="130%" height="450" scrolling="yes" frameborder="0"></iframe>
 
 Throughout the year, the interest in "Love & Belonging" fluctuates, but then... BOOM! We have our first Covid-19 death as well as our first lockdown measure. And with them, a general trend upwards for all countries appears. It would seem that love has become much more prevalent during this period! Now let's move onto our next level.
 
