@@ -114,7 +114,6 @@ The global pandemic left its mark on Maslow's pyramid, particularly on its top t
 
 ![did_top3](assets/img/did_top3.png)
 
-<iframe src="assets/final_did.html" width="100%" height="100%" scrolling="no" frameborder="0"></iframe>
 
 Examining the data, a notable trend surfaces. Despite the challenges, the pandemic had a positive effect on pageviews in all three top categories of Maslow's pyramid. Notably, Self-Actualization experienced the most significant increase.
 
@@ -136,6 +135,7 @@ Summin the different Differences in Differences coefficients and sorting them in
 
   
 ![Final_plt](assets/img/result.png)
+<iframe src="assets/final_did.html" width="100%" height="100%" scrolling="no" frameborder="0"></iframe>
 
 
 The following video illustrates the shift the pyramid levels endured during the pandemic:
