@@ -103,8 +103,6 @@ Finally, we will look at the data representing Self-Actualization :
 
 We obtain the same general results : a general shift upwards after the first Covid death and the first lockdown. We will now move onto to DiD analysis in order to get more conclusive results.
 
-zebb
-
 ### Results
 
 The global pandemic left its mark on Maslow's pyramid, particularly on its top three categories. To understand the extent of this impact, we turn to our reliable DiD tool for quantification. It enables us to understand exactly how strongly these categories were impacted, and which ones were most attractive for people.
