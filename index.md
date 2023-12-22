@@ -76,13 +76,12 @@ When it comes to the top three levels of Maslow's Hierarchy, the analysis will b
 
 ### The Pulse of Connection: Tracking Love and Belonging in a Pandemic World
 
-![Love1](assets/img/love_countries.png)
+<iframe src="assets/love_px.html" width="100%" height="400" scrolling="yes" frameborder="0"></iframe>
 
 In the plot above, we see the evolution, on average, of the relative percentage change from the baseline of multiple topics related to Love & Belonging, for six different countries within europe. This allows us to evaluate how the general interest in Love & Belonging topics has evolved during this period.
 
 We can see that they're seems to be a shift upwards in the interest of these topics straight after the first Covid-19 death and the date on which the first lockdown measures were implemented. Which would seem to suggest that the interest in Love & Belonging Topics has increased during Cocid-19 in Europe.
 
-![Love2](assets/img/love_avg.png)
 
 In the graph above, this shift upwards is a lot more evident. In order to have a more conclusive analysis, we will be employing a differences in differences approach.
 
@@ -91,8 +90,7 @@ In the graph above, this shift upwards is a lot more evident. In order to have a
 
 The same principle is used for Esteem Topics : 
 
-![Esteem_C](assets/img/esteem_countries.png)
-![Esteem_A](assets/img/esteem_avg.png)
+<iframe src="assets/esteem_px.html" width="100%" height="400" scrolling="yes" frameborder="0"></iframe>
 
 Again, looking at the above plots, we see that this trend upwards, straight after the first Covid death and the first lockdown, is very evident, especially in the second graph when we average out the data together. 
 
@@ -101,8 +99,7 @@ Again, looking at the above plots, we see that this trend upwards, straight afte
 
 Finally, we will look at the data representing Self-Actualization :
 
-![Self_C](assets/img/self_countries.png)
-![Self_A](assets/img/self_avg.png)
+<iframe src="assets/self_px.html" width="100%" height="400" scrolling="yes" frameborder="0"></iframe>
 
 We obtain the same general results : a general shift upwards after the first Covid death and the first lockdown. We will now move onto to DiD analysis in order to get more conclusive results.
 
