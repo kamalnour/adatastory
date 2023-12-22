@@ -41,6 +41,7 @@ The bar chart indicates that based on Google Trends data, there was generally a 
 Averaging all the coefficients together, we can determine how much more dominant physiological needs were during the pandemic.The bar plot below displays the overall fluctuation in grocery shopping, pharmacy and overall physiological needs.
 
 ![DID_Physiological_fin](assets/img/physio_final.png)
+<iframe src="assets/physio_did.html" width="100%" height="400" scrolling="no" frameborder="0"></iframe>
 
 
 ## Job Security in Crisis: The Pandemic's Impact on Maslow's Safety Layer
@@ -67,8 +68,6 @@ Using least squares over this data to estimate the coefficients of unemployment 
 This analysis shows that some countries, like Iceland, had a thriving employment situation during lockdown whilst other countries, such as Spain, were struggling with employment levels.
 However, it has one main fallacy: it does not consider seasonality. A fallacy that **Difference in Differences** solves.
 Using the aforementioned method, the following coefficients are obtained:
-![DID_unemp](assets/img/did_unemployment.png)
-
 <iframe src="assets/unemployment_did.html" width="100%" height="750" scrolling="no" frameborder="0"></iframe>
 
 Contrary to the first, naive analysis, the DiD method proves that unemployment rates have skyrocketed during times of COVID, with a few exceptions. The E
@@ -114,6 +113,8 @@ We obtain the same general results : a general shift upwards after the first Cov
 The global pandemic left its mark on Maslow's pyramid, particularly on its top three categories. To understand the extent of this impact, we turn to our reliable DiD tool for quantification. It enables us to understand exactly how strongly these categories were impacted, and which ones were most attractive for people.
 
 ![did_top3](assets/img/did_top3.png)
+
+<iframe src="assets/final_did.html" width="100%" height="100%" scrolling="no" frameborder="0"></iframe>
 
 Examining the data, a notable trend surfaces. Despite the challenges, the pandemic had a positive effect on pageviews in all three top categories of Maslow's pyramid. Notably, Self-Actualization experienced the most significant increase.
 
