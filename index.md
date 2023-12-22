@@ -24,12 +24,16 @@ A world plunged into the unforeseen chaos of the COVID-19 pandemic in early 2020
 
 DiD analysis is used to underline the effect of a certain treatment affecting a group (or population). In our study, the treatment is the Covid-19 virus. A DiD analysis is relevant to us as it can explain the effect of Covid-19 on different types of data whilst removing the influence of other underlying factors that are unexplained in our data sets such as seasonal fluctuations or normal growth in data numbers, using what is called a control group. In an ideal case DiD is performed using two groups, one of which receives a treatment and the other doesn't, obviously this is not possible in our case as the pandemic hit the globe at roughly the same time period without exempting a group of people. Since this is an observational analysis, we found a way to compare two similar groups, using previous data over the same populations, ideally in the same period as covid in the beginning of 2019. The results of DiD is a coefficient (from regression) that gives us the effect the treatment (pandemic) had over our data, and therefore when looking at categories of Maslow's pyramid this can highlight which needs saw an increased interest compared to others, helping us redefine the pyramid.
 
-# The secrets of the Pyramid
-## Physiological Needs
+# The secrets at the base of the Pyramid
+## Navigating Necessities: The Unwavering Pursuit of Physiological Needs During the Pandemic
 Our assessment of Physiological Needs drew primarily from the Global Mobility Report and Google Trends. These needs encompass essentials like food, water, and fundamental health requirements, such as medicine, supplements, or vitamins. Typically, these items are procured from grocery stores or pharmacies. Given that these establishments were considered essential businesses during the pandemic, people continued to have access to them. To gauge the shift in physiological needs during the challenging times of the pandemic, we will examine how the frequency of visits to these critical businesses changed, as indicated by mobility data. Additionally, we'll look at Google Trends data for 'Grocery Store' and 'Pharmacy' searches to corroborate or challenge our initial findings.
 
 ![Mobility_Physiological](assets/img/Mobility_Phys2.png)
-By comparing the percent change in visits to grocery stores and pharmacies with the average percent change across all types of locations, we can infer their relative significance during the pandemic. A positive differential implies that grocery stores and pharmacies experienced a lesser decline—or even an uptick—in visits compared to the general trend in mobility. Conversely, a negative differential indicates that these venues saw a steeper decline in visits than the average. Observing either a positive or no significant difference overall, it is reasonable to conclude that the fulfillment of physiological needs, as represented by grocery stores and pharmacies, maintained or increased their importance during the COVID-19 period.
+In the quiet streets of the pandemic, grocery stores and pharmacies shone like stars against a darkened sky. The paths to these havens remained trodden, each visit a silent affirmation of life's persistence. Amidst the stillness, these places hummed with the rhythm of essential needs being met, their importance undiminished.
+
+Observing either a positive or no significant difference overall, it is reasonable to conclude that the fulfillment of physiological needs, as represented by grocery stores and pharmacies, maintained or increased their importance during the COVID-19 period. 
+
+Online searches mirrored this trend, with keystrokes lighting up the internet in search of nourishment and wellness. The data painted a clear picture: as the world paused, the heartbeat of our basic needs throbbed ever stronger, revealing through the numbers a narrative of resilience. 
 
 ![DID_Physiological](assets/img/DID_Phys3.png)
 The bar chart indicates that based on Google Trends data, there was generally a smaller reduction—or in some cases, an increase—in the public's interest in grocery stores and pharmacies compared to shopping malls during the pandemic. This suggests that essential needs, such as those for food and healthcare, maintained a consistent level of importance as reflected by online search behaviors.
@@ -38,7 +42,8 @@ Averaging all the coefficients together, we can determine how much more dominant
 
 ![DID_Physiological_fin](assets/img/physio_final.png)
 
-## Safety
+
+## Job Security in Crisis: The Pandemic's Impact on Maslow's Safety Layer
 EU Unemployment Data revealed a few things about how financial safety's place evolved during the pandemic. Preliminary studies on the overall number of inactive people show how the inactive European population was distributed amongst different groups: the number of inactive men  grew after the lockdown with respect to women, as did the number of unemployed 'young' people (under 25) with respect to 'older ' people (between the ages of 25 and 74). The pie charts help us visualize the results: labels Y_LT25 and Y25-74 respectively represent the younger and older population, as for the M and F labels, they represent male and female individuals. 
  
 #### Distribution of Unemployed Individuals per Group
@@ -59,7 +64,6 @@ Using least squares over this data to estimate the coefficients of unemployment 
 ![LS](assets/img/ls_t.png)
 
 
-
 This analysis shows that some countries, like Iceland, had a thriving employment situation during lockdown whilst other countries, such as Spain, were struggling with employment levels.
 However, it has one main fallacy: it does not consider seasonality. A fallacy that **Difference in Differences** solves.
 Using the aforementioned method, the following coefficients are obtained:
@@ -67,11 +71,11 @@ Using the aforementioned method, the following coefficients are obtained:
 
 Contrary to the first, naive analysis, the DiD method proves that unemployment rates have skyrocketed during times of COVID, with a few exceptions. The E
 
-## Top 3 Maslow Levels
+## Ascending Maslow's Summit: A Deep Dive into the Upper Tiers During COVID-19
 
 When it comes to the top three levels of Maslow's Hierarchy, the analysis will be based on wikipedia pageviews, collected on a monthly basis between 2019-01 and 2020-08 : a period that allows us to capture the impact of different Covid-19 measures, such as lockdowns. Once we are done with the introductory analysis for each level, we will go into a differences in differences analysis (DiD) to conclude and summarize our results for the top three levels.
 
-### Love and Belonging
+### The Pulse of Connection: Tracking Love and Belonging in a Pandemic World
 
 ![Love1](assets/img/love_countries.png)
 
@@ -84,7 +88,7 @@ We can see that they're seems to be a shift upwards in the interest of these top
 In the graph above, this shift upwards is a lot more evident. In order to have a more conclusive analysis, we will be employing a differences in differences approach.
 
 
-### Esteem
+### Esteem in the Age of Isolation
 
 The same principle is used for Esteem Topics : 
 
@@ -94,7 +98,7 @@ The same principle is used for Esteem Topics :
 Again, looking at the above plots, we see that this trend upwards, straight after the first Covid death and the first lockdown, is very evident, especially in the second graph when we average out the data together. 
 
 
-### Self-Actualization
+### The Drive for Self-Actualization: A Pandemic-Era Transformation
 
 Finally, we will look at the data representing Self-Actualization :
 
@@ -119,7 +123,7 @@ In conclusion, the upper levels of Maslow's pyramid remained robust throughout t
 
 ## Test Plots using plotly & Progress bars
 
-<iframe src="countries.html" width="100%" height="750"></iframe>>
+<iframe src="countries.html" class="responsive-iframe"></iframe>
 
 # Revealed
 Summin the different Differences in Differences coefficients and sorting them in ascending order yields the following barplot. These coefficients are comparable for the following reasons:
