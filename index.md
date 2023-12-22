@@ -59,7 +59,6 @@ Using least squares over this data to estimate the coefficients of unemployment 
 
 ![LS](assets/img/ls_t.png)
 
-<iframe src="assets/unemployment_change_plot.html" width="100%" height="750"></iframe>>
 
 
 This analysis shows that some countries, like Iceland, had a thriving employment situation during lockdown whilst other countries, such as Spain, were struggling with employment levels.
