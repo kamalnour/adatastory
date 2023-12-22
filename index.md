@@ -99,21 +99,17 @@ Finally, we will look at the data representing Self-Actualization :
 ![Self_C](assets/img/self_countries.png)
 ![Self_A](assets/img/self_avg.png)
 
-We obtain the same general results : a general shift upwards after the first Covid death and the first lockdown. We will now move onto to DiD analysis in order to get more conclusive results.
+We obtain the same general results : a shift upwards after the first Covid death and the first lockdown. We will now move onto to DiD analysis in order to get more conclusive results.
 
-### DiD & Summary
+### DiD Analysis
 
-In this section we will provide an analysis using the difference in differences method to quantify the changes due to the covid pandemic. Since we are not performing a controlled experiment we do not dispose of a control and treatment group as comparison directly, as the pandemic affected the whole world without exeption. We will therefore use previous temporal periods as a "control" or unaffected group. For the datasets gathered above, we dispose of dates from the start of the year 2019. This enables us to use the early 2019 period as control group, as it can remove year seasonality effect and be used to compare the early 2020 year where covid 19 pandemic hit.
+In this section we will provide an analysis using the difference in differences method to quantify the changes due to the covid pandemic. Since we are not performing a controlled experiment we do not dispose of a control and treatment group as comparison directly, as the pandemic affected the whole world without exeption. We will therefore use previous temporal periods as a "control" or unaffected group. For the datasets gathered above, we dispose of dates from the start of the year 2019. This enables us to use the early 2019 period as control group, as it can remove year seasonality effect and be used to compare the early 2020 year where Covid-19 pandemic hit.
 
 ![did_top3](assets/img/did_top3.png)
 
 We observe that the pandemic had a positive effect in terms of pageviews for all three top categories of Maslow's pyramid, with Self-Actualization seeing the highest uprise.
 
-We can conclude that the top of the pyramid, specifically for these three levels, has remained intact throughout Covid-19.
-
-
-
-
+We can conclude that, when considering just the top three levels between each other, the order of importance has remained the same. However, this does not necessarly mean that these levels will stay at the top of the pyrammid. We now need to compare all the DiD results of the different levels together in order to determine whether there has been a change in the pyramid or not.
 
 ## Test Plots using plotly & Progress bars
 
