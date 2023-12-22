@@ -74,6 +74,8 @@ However, one main problem arises: naive analysis does not consider seasonality. 
 
 When it comes to the top three levels of Maslow's Hierarchy, the analysis will be based on wikipedia pageviews, collected on a monthly basis between 2019-01 and 2020-08 : a period that allows us to capture the impact of different Covid-19 measures, such as lockdowns. Once we are done with the introductory analysis for each level, we will go into a differences in differences analysis (DiD) to conclude and summarize our results for the top three levels.
 
+<iframe src="eu_map.html" width="100%" height="550" scrolling="no" frameborder="0"></iframe>
+
 ### The Pulse of Connection: Tracking Love and Belonging in a Pandemic World
 
 <iframe src="assets/love_px_2.html" width="130%" height="450" scrolling="yes" frameborder="0"></iframe>
@@ -84,12 +86,6 @@ We can see that they're seems to be a shift upwards in the interest of these top
 
 
 In the graph above, this shift upwards is a lot more evident. In order to have a more conclusive analysis, we will be employing a differences in differences approach.
-
-## Navigating Through Esteem, Love, and Self-Actualization
-
-Let's explore our analysis with the countries featured below :
-
-<iframe src="eu_map.html" width="100%" height="550" scrolling="no" frameborder="0"></iframe>
 
 ### Esteem in the Age of Isolation
 
