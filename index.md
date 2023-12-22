@@ -107,16 +107,20 @@ Finally, we will look at the data representing Self-Actualization :
 
 We obtain the same general results : a general shift upwards after the first Covid death and the first lockdown. We will now move onto to DiD analysis in order to get more conclusive results.
 
-### Results
+### Unpacking the Pandemic's Impact on Esteem, Love, and Self-Actualization
 
-The global pandemic left its mark on Maslow's pyramid, particularly on its top three categories. To understand the extent of this impact, we turn to our reliable DiD tool for quantification. It enables us to understand exactly how strongly these categories were impacted, and which ones were most attractive for people.
+The global pandemic left its mark on Maslow's pyramid, with the top categories following suit. To understand this impact, we used our reliable DiD tool. It helped us measure how strongly these categories were affected and which ones people were most drawn to.
+
+With DiD as our guide, we delved into the data. We wanted to grasp the extent of the pandemic's influence on esteem, love, and self-actualization.
+
+What we found was a story of change and adaptation. The pandemic shifted priorities, showing how people adjusted their aspirations in response to challenging times.
 
 ![did_top3](assets/img/did_top3.png)
 
 
-Examining the data, a notable trend surfaces. Despite the challenges, the pandemic had a positive effect on pageviews in all three top categories of Maslow's pyramid. Notably, Self-Actualization experienced the most significant increase.
+Upon scrutinizing the data, a clear trend emerges. Surprisingly, despite the challenges posed by the pandemic, all three top categories of Maslow's pyramid experienced a surge in interest. Notably, the category of Self-Actualization saw the most significant increase.
 
-In conclusion, the upper levels of Maslow's pyramid remained robust throughout the Covid-19 period, showing resilience in the face of adversity, or rather the void created by the pandemic led to people having a stronger interest in subjects of deeper meaning, like their personal growth, life goals and their value to others. 
+In summary, the upper levels of Maslow's pyramid remained resilient during the Covid-19 period. It appears that the pandemic led people to explore topics of deeper significance, such as personal growth, life goals, and their value to others, filling a void created by these unprecedented times.
 
 
 # Revealed
