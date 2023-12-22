@@ -49,24 +49,11 @@ The data on unemployment in the European Union has provided valuable insights in
 To help us visualize these trends, we turned to pie charts. The labels Y_LT25 and Y25-74 represent the younger and older age groups, while M and F signify male and female individuals. These charts serve as a visual aid, allowing us to better understand how the pandemic impacted different demographic groups within the European
 
 #### Distribution of Unemployed Individuals per Group
-<div style="display: flex; justify-content: space-between;">
-    <div style="flex: 1; margin-right: 10px;">
-        <iframe src="assets/age_pie_0.html" ></iframe>
-    </div>
-    <div style="flex: 1; margin-left: 10px;">
-        <iframe src="assets/age_pie_1.html" ></iframe>
-    </div>
-</div>
-<div style="display: flex; justify-content: space-between;">
-    <div style="flex: 1; margin-right: 10px;">
-        <iframe src="assets/sex_pie_0.html" ></iframe>
-    </div>
-    <div style="flex: 1; margin-left: 10px;">
-        <iframe src="assets/sex_pie_1.html" ></iframe>
-    </div>
-</div>
-<iframe src="assets/unemployment_did.html" width="100%" height="750" scrolling="yes" frameborder="0"></iframe>
-<iframe src="assets/unemployment_did.html" width="100%" height="750" scrolling="yes" frameborder="0"></iframe>
+
+<iframe src="assets/age_pie_0.html" width="100%" height="300" scrolling="no" frameborder="0"></iframe>
+<iframe src="assets/age_pie_1.html" width="100%" height="300" scrolling="no" frameborder="0"></iframe>
+<iframe src="assets/sex_pie_0.html" width="100%" height="300" scrolling="no" frameborder="0"></iframe>
+<iframe src="assets/sex_pie_1.html" width="100%" height="300" scrolling="no" frameborder="0"></iframe>
 
 Given these results, the next natural step is to generalize to an EU-wide scale, to understand how relevant safety needs related to employment were during covid times, and the answers lie in the time-series of unemployment rates across EU countries. A naive analysis should provide the key elements to infer the evolution of safety needs.  Considering march 2020  as the lockdown starting point let's dive head-first into the data.
 
