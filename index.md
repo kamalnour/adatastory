@@ -20,6 +20,7 @@ This behavioral study bases itself on web-browsing data such as Wikipedia page v
 While Mobility and Unemployment Data directly point us to the lower-two levels of the pyramid, Physiological Needs and Safety, exctracting data for the upper three levels is a bit more intricate: Wikipedia pages and topics are not intuitively classified into Esteem, Love and Affection and Self-Actualization, this needed to be done in order to complete the study.
 
 ## Difference in Differences
+Differences in Differences or DiD analysis is used to underline the effect of a certain treatment affecting a group (or population). In our study, the treatment is the Covid-19 virus that hit us worldwide in the early part of the 2020 year. A DiD analysis is important to us as it can explain the effect of Covid-19 on different types of data while removing the influence of other underlying factors that are unexplained in our data sets such as seasonal fluctuations or normal growth in data numbers. In an ideal case DiD is performed using two groups, one of which receives a treatment and the other doesn't, obviously this is no possible in our case. Since this is an observational analysis, we found a way to compare two similar groups, using previous data over the same populations, ideally in the same period as covid in the beginning of 2019. The results of DiD is a coefficient (from regression) that gives us the effect the treatment (pandemic) had over our data, and therefore when looking at categories of Maslow's pyramid this can highlight which needs saw an increased interest compared to others, helping us redefine the pyramid.
 
 # The secrets of the Pyramid
 ## Physiological Needs
@@ -116,9 +117,7 @@ We can conclude that the top of the pyramid, specifically for these three levels
 
 ## Test Plots using plotly & Progress bars
 
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-  <iframe src="countries.html" width="100%" height="1000" style="border:none;" scrolling="no"></iframe>
-</div>
+<iframe src="countries.html" class="responsive-iframe"></iframe>
 
 # Revealed
 Summin the different Differences in Differences coefficients and sorting them in ascending order yields the following barplot. These coefficients are comparable for the following reasons:
@@ -129,11 +128,26 @@ Summin the different Differences in Differences coefficients and sorting them in
   
 ![Final_plt](assets/img/result.png)
 
-![Maslow New](assets/img/maslownew.png)
 
-<video width="320" height="240" controls>
-  <source src="Desktop/2023/adatastory/assets/img/NewMaslow.mp4" type="video/mp4">
-</video>
-Video - Shifting Pyramid
+The following video illustrates the shift the pyramid levels endured during the pandemic:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tFMfmEIIHtE?si=gSMYTtHGwF6r4DX2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/tFMfmEIIHtE?si=gSMYTtHGwF6r4DX2" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen
+    style="display: block; margin: auto;">
+</iframe>
+
+## Conclusion
+
+The emergence of the COVID-19 pandemic has prompted a reevaluation of Maslow’s "Hierarchy of Needs" theory under conditions of crisis. It remains evident that the theory's foundational concepts still hold; however, the pandemic has instigated a notable reorganization in how needs are approached and addressed. The traditionally solid base of Maslow’s pyramid, the Physiological Needs, saw a dynamic shift as people globally adjusted their priorities to navigate the new landscape of the pandemic.
+
+Self-Actualization, typically the pinnacle of Maslow's structure, took on a more central role. The data analyzed suggests a collective reemphasis on self-improvement and personal development, likely a countermeasure to the confinements of lockdowns and the resultant introspection. The disruption brought on by the pandemic may have catalyzed a transformative perspective, positioning the quest for self-fulfillment as a more immediate concern, with individuals actively reshaping their aspirations to find satisfaction and purpose in the midst of adversity.
+
+The pandemic's impact was also acutely felt in the realm of social interactions and the essential need for love and belonging. With the implementation of social distancing, traditional forms of interaction were supplanted by digital communication, indicating a versatile approach to sustaining social bonds.
+
+Summing up, the global health crisis has emphasized the adaptability of Maslow's hierarchy, revealing a flexible sequence of needs responsive to external shocks. While the base needs of Physiological and Safety remained essential, their urgency and presence in the hierarchy were subject to change. Esteem and Love and Belonging needs, though critical, were redefined as people sought alternative methods of fulfillment. The pandemic has highlighted humanity's inherent ability to recalibrate its motivational mechanisms, demonstrating an impressive capacity for innovation in meeting its varied needs amidst a landscape of global upheaval.
