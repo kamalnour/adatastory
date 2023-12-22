@@ -76,7 +76,7 @@ When it comes to the top three levels of Maslow's Hierarchy, the analysis will b
 
 ### The Pulse of Connection: Tracking Love and Belonging in a Pandemic World
 
-<iframe src="assets/love_px_2.html" width="110%" height="400" scrolling="yes" frameborder="0"></iframe>
+<iframe src="assets/love_px_2.html" width="120%" height="400" scrolling="yes" frameborder="0"></iframe>
 
 In the plot above, we see the evolution, on average, of the relative percentage change from the baseline of multiple topics related to Love & Belonging, for six different countries within europe. This allows us to evaluate how the general interest in Love & Belonging topics has evolved during this period.
 
@@ -95,7 +95,7 @@ Let's explore our analysis with the countries featured below :
 
 The same principle is used for Esteem Topics : 
 
-<iframe src="assets/esteem_px_2.html" width="110%" height="400" scrolling="yes" frameborder="0"></iframe>
+<iframe src="assets/esteem_px_2.html" width="120%" height="400" scrolling="yes" frameborder="0"></iframe>
 
 Again, looking at the above plots, we see that this trend upwards, straight after the first Covid death and the first lockdown, is very evident, especially in the second graph when we average out the data together. 
 
@@ -104,7 +104,7 @@ Again, looking at the above plots, we see that this trend upwards, straight afte
 
 Finally, we will look at the data representing Self-Actualization :
 
-<iframe src="assets/self_px_2.html" width="110%" height="400" scrolling="yes" frameborder="0"></iframe>
+<iframe src="assets/self_px_2.html" width="120%" height="400" scrolling="yes" frameborder="0"></iframe>
 
 We obtain the same general results : a general shift upwards after the first Covid death and the first lockdown. We will now move onto to DiD analysis in order to get more conclusive results.
 
