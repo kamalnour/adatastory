@@ -72,40 +72,31 @@ However, one main problem arises: naive analysis does not consider seasonality. 
 
 ## Ascending Maslow's Summit: A Deep Dive into the Upper Tiers During COVID-19
 
-When it comes to the top three levels of Maslow's Hierarchy, the analysis will be based on wikipedia pageviews, collected on a monthly basis between 2019-01 and 2020-08 : a period that allows us to capture the impact of different Covid-19 measures, such as lockdowns. Once we are done with the introductory analysis for each level, we will go into a differences in differences analysis (DiD) to conclude and summarize our results for the top three levels.
-
-
-Let's explore our analysis with the countries featured below :
-
-<iframe src="eu_map.html" width="100%" height="550" scrolling="no" frameborder="0"></iframe>
+Now picture this : you're back in March 2020. The first ever lockdown measures have been implemented. Your day-to-day routine has been completely thrown out the window as you and your peers are forced to self-isolate at home. As time goes on, you start to realize that maybe certain things matter more than others... Our objective now is too see if certain "personal" aspects of Maslow's pyramid (specifically : Love & Belonging, Esteem and Self-Actualization) have gained more importance during lockdown. We will look at how the interest in internet-topics related to these Maslow levels has evolved for different countries in Europe, by examining wikipedia pageviews!
 
 ### The Pulse of Connection: Tracking Love and Belonging in a Pandemic World
 
 <iframe src="assets/love_px_2.html" width="130%" height="450" scrolling="yes" frameborder="0"></iframe>
 
-In the plot above, we see the evolution, on average, of the relative percentage change from the baseline of multiple topics related to Love & Belonging, for six different countries within europe. This allows us to evaluate how the general interest in Love & Belonging topics has evolved during this period.
+Throughout the year, the interest in "Love & Belonging" fluctuates, but then... BOOM! We have our first Covid-19 death as well as our first lockdown measure. And with them, a general trend upwards for all countries appears. It would seem that love has become much more prevalent during this period! Now let's move onto our next level.
 
-We can see that they're seems to be a shift upwards in the interest of these topics straight after the first Covid-19 death and the date on which the first lockdown measures were implemented. Which would seem to suggest that the interest in Love & Belonging Topics has increased during Cocid-19 in Europe.
+## Navigating Through Esteem, Love, and Self-Actualization
 
-
-In the graph above, this shift upwards is a lot more evident. In order to have a more conclusive analysis, we will be employing a differences in differences approach.
+<iframe src="countries.html" width="100%" height="550" scrolling="no" frameborder="0"></iframe>
 
 ### Esteem in the Age of Isolation
 
-The same principle is used for Esteem Topics : 
-
 <iframe src="assets/esteem_px_2.html" width="130%" height="450" scrolling="yes" frameborder="0"></iframe>
 
-Again, looking at the above plots, we see that this trend upwards, straight after the first Covid death and the first lockdown, is very evident, especially in the second graph when we average out the data together. 
-
+People had valued love a lot more after lockdown measures... but what about their "Esteem"? By looking at the line-plots above, again this shift upwards after Covid-19 measures is evident. People are getting a lot more introspective! Now let's makes sure of this by looking at a very introspective aspect : Self-Actualization!
 
 ### The Drive for Self-Actualization: A Pandemic-Era Transformation
 
-Finally, we will look at the data representing Self-Actualization :
-
 <iframe src="assets/self_px_2.html" width="130%" height="450" scrolling="yes" frameborder="0"></iframe>
 
-We obtain the same general results : a general shift upwards after the first Covid death and the first lockdown. We will now move onto to DiD analysis in order to get more conclusive results.
+As we look more and more within ourselves during such challenging periods, we tend to research more online about ourselves, in a quest to better our situation. Hence why, in the plot above, again, for all of the european countries, a shift upwards after lockdown measures can be seen...
+
+Wow! It looks like all three levels have become more important during Covid-19... but how can we examine this in detail? Has a level overcome another when it comes to its relevance? Let's use DiD and find out!
 
 ### Unpacking the Pandemic's Impact on Esteem, Love, and Self-Actualization
 
@@ -124,7 +115,7 @@ In summary, the upper levels of Maslow's pyramid remained resilient during the C
 
 
 # Revealed
-Summin the different Differences in Differences coefficients and sorting them in ascending order yields the following barplot. These coefficients are comparable for the following reasons:
+Summing the different Differences in Differences coefficients and sorting them in ascending order yields the following barplot. These coefficients are comparable for the following reasons:
 - Same metric across all data (percentages)
 - Similar treatment, in this case lockdown
 - Same treatment and control testing periods
