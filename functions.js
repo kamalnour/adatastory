@@ -26,16 +26,17 @@
         title: 'Map of European Union Member Countries',
         geo: {
             showframe: false,
+            center: {lat: 50, lon: 1000},
             showcoastlines: false,
             projection: {
                 type: 'equirectangular'
             },
             scope: 'europe',
             center: { lat: 50, lon: 15 },
-            projection_scale: 1
         },
-        width: 1500,
-        height: 900
+        width: 600,
+        height: 600,
+        zoom: 5,
     };
 
     // Plot the figure
@@ -111,6 +112,14 @@ function displayProgress(countryCode) {
         elem2.style.width = width2 + '%'; 
       }
       }
+    function frame3() {
+    if (width3 >= perc3) {
+        clearInterval(id);
+    } else {
+        width3++; 
+        elem2.style.width = width3 + '%'; 
+    }
+    }
   
 }
 move(dataForCountry.literacyRate, dataForCountry.otherRate);
