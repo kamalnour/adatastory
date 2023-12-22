@@ -34,6 +34,12 @@
             scope: 'europe',
             center: { lat: 50, lon: 15 },
         },
+        margin: {
+            l: 0, // Set the left margin to 0
+            r: 0, // Set the right margin to 0
+            t: 0, // Set the top margin to 0
+            b: 0  // Set the bottom margin to 0
+        },
         width: 900,
         height: 600,
         zoom: 5,
