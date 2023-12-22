@@ -63,9 +63,12 @@ Using the aforementioned method, the following coefficients are obtained:
 ![DID_unemp](assets/img/did_unemployment.png)
 
 Contrary to the first, naive analysis, the DiD method proves that unemployment rates have skyrocketed during times of COVID, with a few exceptions. The E
-## Love and Belonging
 
-When it comes to the top three levels of Maslow's Hierarchy, the analysis will be based on wikipedia pageviews, collected on a monthly basis between 2019-01 and 2020-08 : a period that allows us to capture the impact of different Covid-19 measures, such as lockdowns.
+## Top 3 Maslow Levels
+
+When it comes to the top three levels of Maslow's Hierarchy, the analysis will be based on wikipedia pageviews, collected on a monthly basis between 2019-01 and 2020-08 : a period that allows us to capture the impact of different Covid-19 measures, such as lockdowns. Once we are done with the introductory analysis for each level, we will go into a differences in differences analysis (DiD) to conclude and summarize our results for the top three levels.
+
+### Love and Belonging
 
 ![Love1](assets/img/love_countries.png)
 
@@ -78,7 +81,7 @@ We can see that they're seems to be a shift upwards in the interest of these top
 In the graph above, this shift upwards is a lot more evident. In order to have a more conclusive analysis, we will be employing a differences in differences approach.
 
 
-## Esteem
+### Esteem
 
 The same principle is used for Esteem Topics : 
 
@@ -88,12 +91,27 @@ The same principle is used for Esteem Topics :
 Again, looking at the above plots, we see that this trend upwards, straight after the first Covid death and the first lockdown, is very evident, especially in the second graph when we average out the data together. 
 
 
-## Self-Actualization
+### Self-Actualization
 
 Finally, we will look at the data representing Self-Actualization :
 
 ![Self_C](assets/img/self_countries.png)
 ![Self_A](assets/img/self_avg.png)
+
+We obtain the same general results : a general shift upwards after the first Covid death and the first lockdown. We will now move onto to DiD analysis in order to get more conclusive results.
+
+### DiD & Summary
+
+In this section we will provide an analysis using the difference in differences method to quantify the changes due to the covid pandemic. Since we are not performing a controlled experiment we do not dispose of a control and treatment group as comparison directly, as the pandemic affected the whole world without exeption. We will therefore use previous temporal periods as a "control" or unaffected group. For the datasets gathered above, we dispose of dates from the start of the year 2019. This enables us to use the early 2019 period as control group, as it can remove year seasonality effect and be used to compare the early 2020 year where covid 19 pandemic hit.
+
+![did_top3](assets/img/did_top3.png)
+
+We observe that the pandemic had a positive effect in terms of pageviews for all three top categories of Maslow's pyramid, with Self-Actualization seeing the highest uprise.
+
+We can conclude that the top of the pyramid, specifically for these three levels, has remained intact throughout Covid-19.
+
+
+
 
 
 ## Test Plots using plotly & Progress bars
