@@ -50,7 +50,7 @@ EU Unemployment Data revealed a few things about how financial safety's place ev
 ![Unemployment_age](assets/img/un_age.png)
 ![Unemployment_sex](assets/img/un_sex.png)
 
-Given these results, the next natural step is to generalize to an EU-wide scale, to understand how relevant safety needs related to employment were during covid times, and the answers lie in the time-series of unemployment rates across EU countries. Naively, plotting, regressing over the data and extracting coefficients should provide the key elements to infer the evolution of safety needs.  For the remainder of this analysis, march 2020 is considered as the lockdown starting point. Identifying data as pre and post-lockdown allows us to conduct the study on unemployment data.
+Given these results, the next natural step is to generalize to an EU-wide scale, to understand how relevant safety needs related to employment were during covid times, and the answers lie in the time-series of unemployment rates across EU countries. A naive analysis should provide the key elements to infer the evolution of safety needs.  Considering march 2020  as the lockdown starting point let's dive head-first into the data.
 
 #### Time-Series of Unemployment Rates per European Country
 ![C_1](assets/img/c1.png)
@@ -59,17 +59,13 @@ Given these results, the next natural step is to generalize to an EU-wide scale,
 ![C_4](assets/img/c4.png)
 ![C_5](assets/img/c5.png)
 
-Using least squares over this data to estimate the coefficients of unemployment rate change that the lockdown-country interaction brings yields the following results:
-
+Regressing over the results screams uncertainty over the unemployment tendencies of the EU: some countries, like Iceland, had a thriving employment situation during the lockdown whilst other countries, such as Spain, were struggling with employment levels.
 ![LS](assets/img/ls_t.png)
 
 
-This analysis shows that some countries, like Iceland, had a thriving employment situation during lockdown whilst other countries, such as Spain, were struggling with employment levels.
-However, it has one main fallacy: it does not consider seasonality. A fallacy that **Difference in Differences** solves.
-Using the aforementioned method, the following coefficients are obtained:
-<iframe src="assets/unemployment_did.html" width="100%" height="750" scrolling="yes" frameborder="0"></iframe>
+However, one main problem arises: naive analysis does not consider seasonality. A fallacy that **Difference in Differences** solves, using it reveals a harsher reality: unemployment spread like a virus throughout Europe.
 
-Contrary to the first, naive analysis, the DiD method proves that unemployment rates have skyrocketed during times of COVID, with a few exceptions. The E
+<iframe src="assets/unemployment_did.html" width="100%" height="750" scrolling="yes" frameborder="0"></iframe>
 
 ## Ascending Maslow's Summit: A Deep Dive into the Upper Tiers During COVID-19
 
