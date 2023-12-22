@@ -77,7 +77,7 @@ Now picture this : you're back in March 2020. The first ever lockdown measures h
 
 Let's explore our analysis with the countries featured below :
 
-<iframe src="eu_map.html" width="100%" height="550" scrolling="no" frameborder="0"></iframe>
+<iframe src="assets/eu_map.html" width="100%" height="550" scrolling="no" frameborder="0"></iframe>
 
 ### The Pulse of Connection: Tracking Love and Belonging in a Pandemic World
 
